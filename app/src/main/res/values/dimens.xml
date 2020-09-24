@@ -19,6 +19,7 @@
     <dimen name="settings_user_photo_border_2dp">2dp</dimen>
     <dimen name="settings_ripple_radius">4dp</dimen>
     <dimen name="appPadding_5dp">10dp</dimen>
+    <dimen name="chat_image_180dp">180dp</dimen>
 
 
 </resources>
