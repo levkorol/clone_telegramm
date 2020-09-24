@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message_item.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/message_item.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_change_bio.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_change_bio.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/contact_item.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/contact_item.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_single_chat.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_single_chat.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_change_username.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_change_username.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_enter_code.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_enter_code.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_change_name.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_change_name.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_settings.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar_info.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/toolbar_info.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_enter_phone_number.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_enter_phone_number.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contacts.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_contacts.xml"
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204539773346",
+    "firebase_url": "https://telegram-2f624.firebaseio.com",
+    "project_id": "telegram-2f624",
+    "storage_bucket": "telegram-2f624.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204539773346:android:64eb9e83227ae41339f2fb",
+        "android_client_info": {
+          "package_name": "ru.skillbranch.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204539773346-jb9ua9ubs1111266i82dc6samrsk62mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTLfdwAEbhHU-LyAPzYx2EH7o-oiqDbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204539773346-jb9ua9ubs1111266i82dc6samrsk62mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

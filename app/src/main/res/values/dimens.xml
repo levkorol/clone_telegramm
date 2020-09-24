@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_margin_16dp">16dp</dimen>
+    <dimen name="normal_text_16sp">16sp</dimen>
+    <dimen name="app_small_margin_10dp">10dp</dimen>
+    <dimen name="small_text_14sp">14sp</dimen>
+    <dimen name="vertical_large_margin_16dp">16dp</dimen>
+
+    <!--    toolbar-->
+    <dimen name="toolbar_image_width">45dp</dimen>
+    <dimen name="toolbar_image_height">45dp</dimen>
+
+    <!--settings fragment-->
+    <dimen name="settings_userphoto_width_55dp">55dp</dimen>
+    <dimen name="settings_user_photo_height_55dp">55dp</dimen>
+    <dimen name="settings_btn_change_photo_width_45dp">45dp</dimen>
+    <dimen name="settings_btn_change_photo_height_45dp">45dp</dimen>
+    <dimen name="settings_user_photo_border_2dp">2dp</dimen>
+    <dimen name="settings_ripple_radius">4dp</dimen>
+    <dimen name="appPadding_5dp">10dp</dimen>
+
+
+</resources>

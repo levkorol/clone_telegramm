@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">204539773346-jb9ua9ubs1111266i82dc6samrsk62mg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://telegram-2f624.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">204539773346</string>
+    <string name="google_api_key" translatable="false">AIzaSyAWTLfdwAEbhHU-LyAPzYx2EH7o-oiqDbs</string>
+    <string name="google_app_id" translatable="false">1:204539773346:android:64eb9e83227ae41339f2fb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAWTLfdwAEbhHU-LyAPzYx2EH7o-oiqDbs</string>
+    <string name="google_storage_bucket" translatable="false">telegram-2f624.appspot.com</string>
+    <string name="project_id" translatable="false">telegram-2f624</string>
+</resources>
