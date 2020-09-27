@@ -4,6 +4,7 @@ package ru.skillbranch.chat.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,10 +20,22 @@ public final class MessageItemBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ConstraintLayout blockReceivedImage;
+
+  @NonNull
   public final ConstraintLayout blockReceivedMessage;
 
   @NonNull
+  public final ConstraintLayout blockUserImage;
+
+  @NonNull
   public final ConstraintLayout blockUserMessage;
+
+  @NonNull
+  public final ImageView chatReceivedImage;
+
+  @NonNull
+  public final TextView chatReceivedImageMessageTime;
 
   @NonNull
   public final TextView chatReceivedMessage;
@@ -31,20 +44,35 @@ public final class MessageItemBinding implements ViewBinding {
   public final TextView chatReceivedTime;
 
   @NonNull
+  public final ImageView chatUserImage;
+
+  @NonNull
+  public final TextView chatUserImageMessageTime;
+
+  @NonNull
   public final TextView chatUserMessage;
 
   @NonNull
   public final TextView chatUserTime;
 
   private MessageItemBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout blockReceivedMessage, @NonNull ConstraintLayout blockUserMessage,
+      @NonNull ConstraintLayout blockReceivedImage, @NonNull ConstraintLayout blockReceivedMessage,
+      @NonNull ConstraintLayout blockUserImage, @NonNull ConstraintLayout blockUserMessage,
+      @NonNull ImageView chatReceivedImage, @NonNull TextView chatReceivedImageMessageTime,
       @NonNull TextView chatReceivedMessage, @NonNull TextView chatReceivedTime,
+      @NonNull ImageView chatUserImage, @NonNull TextView chatUserImageMessageTime,
       @NonNull TextView chatUserMessage, @NonNull TextView chatUserTime) {
     this.rootView = rootView;
+    this.blockReceivedImage = blockReceivedImage;
     this.blockReceivedMessage = blockReceivedMessage;
+    this.blockUserImage = blockUserImage;
     this.blockUserMessage = blockUserMessage;
+    this.chatReceivedImage = chatReceivedImage;
+    this.chatReceivedImageMessageTime = chatReceivedImageMessageTime;
     this.chatReceivedMessage = chatReceivedMessage;
     this.chatReceivedTime = chatReceivedTime;
+    this.chatUserImage = chatUserImage;
+    this.chatUserImageMessageTime = chatUserImageMessageTime;
     this.chatUserMessage = chatUserMessage;
     this.chatUserTime = chatUserTime;
   }
@@ -76,15 +104,39 @@ public final class MessageItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.block_received_image;
+      ConstraintLayout blockReceivedImage = rootView.findViewById(id);
+      if (blockReceivedImage == null) {
+        break missingId;
+      }
+
       id = R.id.block_received_message;
       ConstraintLayout blockReceivedMessage = rootView.findViewById(id);
       if (blockReceivedMessage == null) {
         break missingId;
       }
 
+      id = R.id.block_user_image;
+      ConstraintLayout blockUserImage = rootView.findViewById(id);
+      if (blockUserImage == null) {
+        break missingId;
+      }
+
       id = R.id.block_user_message;
       ConstraintLayout blockUserMessage = rootView.findViewById(id);
       if (blockUserMessage == null) {
+        break missingId;
+      }
+
+      id = R.id.chat_received_image;
+      ImageView chatReceivedImage = rootView.findViewById(id);
+      if (chatReceivedImage == null) {
+        break missingId;
+      }
+
+      id = R.id.chat_received_image_message_time;
+      TextView chatReceivedImageMessageTime = rootView.findViewById(id);
+      if (chatReceivedImageMessageTime == null) {
         break missingId;
       }
 
@@ -100,6 +152,18 @@ public final class MessageItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.chat_user_image;
+      ImageView chatUserImage = rootView.findViewById(id);
+      if (chatUserImage == null) {
+        break missingId;
+      }
+
+      id = R.id.chat_user_image_message_time;
+      TextView chatUserImageMessageTime = rootView.findViewById(id);
+      if (chatUserImageMessageTime == null) {
+        break missingId;
+      }
+
       id = R.id.chat_user_message;
       TextView chatUserMessage = rootView.findViewById(id);
       if (chatUserMessage == null) {
@@ -112,8 +176,10 @@ public final class MessageItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new MessageItemBinding((ConstraintLayout) rootView, blockReceivedMessage,
-          blockUserMessage, chatReceivedMessage, chatReceivedTime, chatUserMessage, chatUserTime);
+      return new MessageItemBinding((ConstraintLayout) rootView, blockReceivedImage,
+          blockReceivedMessage, blockUserImage, blockUserMessage, chatReceivedImage,
+          chatReceivedImageMessageTime, chatReceivedMessage, chatReceivedTime, chatUserImage,
+          chatUserImageMessageTime, chatUserMessage, chatUserTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

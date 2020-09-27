@@ -140,6 +140,10 @@
         "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/drawable/ic_btn_action_menu.xml"
     },
     {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/res/merged/debug/drawable_ic_voice.xml.flat",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/drawable/ic_voice.xml"
+    },
+    {
         "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/res/merged/debug/drawable_header.xml.flat",
         "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/drawable/header.xml"
     },

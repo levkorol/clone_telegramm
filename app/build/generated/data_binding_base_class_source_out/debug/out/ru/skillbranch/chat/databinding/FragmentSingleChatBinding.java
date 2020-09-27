@@ -28,6 +28,9 @@ public final class FragmentSingleChatBinding implements ViewBinding {
   public final ImageView chatBtnSendMessage;
 
   @NonNull
+  public final ImageView chatBtnVoice;
+
+  @NonNull
   public final EditText chatInputMessage;
 
   @NonNull
@@ -38,11 +41,12 @@ public final class FragmentSingleChatBinding implements ViewBinding {
 
   private FragmentSingleChatBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView chatBtnAttach, @NonNull ImageView chatBtnSendMessage,
-      @NonNull EditText chatInputMessage, @NonNull RecyclerView chatRecyclerView,
-      @NonNull SwipeRefreshLayout chatSwipeRefresh) {
+      @NonNull ImageView chatBtnVoice, @NonNull EditText chatInputMessage,
+      @NonNull RecyclerView chatRecyclerView, @NonNull SwipeRefreshLayout chatSwipeRefresh) {
     this.rootView = rootView;
     this.chatBtnAttach = chatBtnAttach;
     this.chatBtnSendMessage = chatBtnSendMessage;
+    this.chatBtnVoice = chatBtnVoice;
     this.chatInputMessage = chatInputMessage;
     this.chatRecyclerView = chatRecyclerView;
     this.chatSwipeRefresh = chatSwipeRefresh;
@@ -87,6 +91,12 @@ public final class FragmentSingleChatBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.chat_btn_voice;
+      ImageView chatBtnVoice = rootView.findViewById(id);
+      if (chatBtnVoice == null) {
+        break missingId;
+      }
+
       id = R.id.chat_input_message;
       EditText chatInputMessage = rootView.findViewById(id);
       if (chatInputMessage == null) {
@@ -106,7 +116,7 @@ public final class FragmentSingleChatBinding implements ViewBinding {
       }
 
       return new FragmentSingleChatBinding((ConstraintLayout) rootView, chatBtnAttach,
-          chatBtnSendMessage, chatInputMessage, chatRecyclerView, chatSwipeRefresh);
+          chatBtnSendMessage, chatBtnVoice, chatInputMessage, chatRecyclerView, chatSwipeRefresh);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

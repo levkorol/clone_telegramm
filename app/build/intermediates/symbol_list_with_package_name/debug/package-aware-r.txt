@@ -1611,6 +1611,7 @@ dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen chat_image_180dp
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -2126,6 +2127,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_send
 drawable ic_toolbar_find
+drawable ic_voice
 drawable material_drawer_badge
 drawable material_drawer_circle_mask
 drawable material_drawer_rectangle_mask
@@ -2258,7 +2260,9 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id block_received_image
 id block_received_message
+id block_user_image
 id block_user_message
 id blocking
 id bottom
@@ -2275,11 +2279,16 @@ id chain
 id chains
 id chat_btn_attach
 id chat_btn_send_message
+id chat_btn_voice
 id chat_input_message
+id chat_received_image
+id chat_received_image_message_time
 id chat_received_message
 id chat_received_time
 id chat_recycler_view
 id chat_swipe_refresh
+id chat_user_image
+id chat_user_image_message_time
 id chat_user_message
 id chat_user_time
 id checkbox

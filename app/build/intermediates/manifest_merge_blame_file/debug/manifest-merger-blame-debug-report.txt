@@ -10,222 +10,225 @@
 9        android:targetSdkVersion="29" />
 9-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.READ_CONTACTS" />
-11-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:5:5-71
-11-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:5:22-69
-12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:6:5-79
-12-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:6:22-77
-13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:7:5-80
-13-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:7:22-78
-14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-14-->[com.firebaseui:firebase-ui-database:6.2.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c44e92d52b2c75f0dcada7581d7af17d/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:5-67
-14-->[com.firebaseui:firebase-ui-database:6.2.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c44e92d52b2c75f0dcada7581d7af17d/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:22-64
-15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:25:5-79
-16-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:25:22-76
-17    <uses-permission android:name="android.permission.WAKE_LOCK" />
-17-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
-17-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:22-65
-18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-18-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
-18-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
-19
-20    <application
-20-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:9:5-27:19
-21        android:allowBackup="true"
-21-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:10:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/0c50ec4950e924861018d0425158d1e6/core-1.3.1/AndroidManifest.xml:24:18-86
-23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-24-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:11:9-43
-25        android:label="@string/app_name"
-25-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:12:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:13:9-54
-27        android:supportsRtl="true"
-27-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:14:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppThemeLight" >
-29-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:15:9-45
-30        <activity
-30-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:17:9-18:58
-31            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-31-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:17:19-82
-32            android:theme="@style/Base.Theme.AppCompat" />
-32-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:18:13-56
-33        <activity
-33-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:19:9-26:20
-34            android:name="ru.skillbranch.chat.MainActivity"
-34-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:19:19-47
-35            android:windowSoftInputMode="adjustResize" >
-35-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:20:13-55
-36            <intent-filter>
-36-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:21:13-25:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:22:17-69
-37-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:22:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:24:17-77
-39-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:24:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <provider
-43-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:27:9-32:39
-44            android:name="com.mikepenz.iconics.IconicsContentProvider"
-44-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:28:13-71
-45            android:authorities="ru.skillbranch.chat.iconics.core.provider"
-45-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:29:13-73
-46            android:enabled="@bool/is_iconics_content_provider_enabled"
-46-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:30:13-72
-47            android:exported="false"
-47-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:31:13-37
-48            android:initOrder="100" />
-48-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:32:13-36
-49
-50        <service
-50-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:12:9-18:19
-51            android:name="com.google.firebase.components.ComponentDiscoveryService"
-51-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:13:13-84
-52            android:directBootAware="true"
-52-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
-53            android:exported="false" >
-53-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:14:13-37
-54            <meta-data
-54-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:15:13-17:85
-55                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
-55-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:16:17-126
-56                android:value="com.google.firebase.components.ComponentRegistrar" />
-56-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:17:17-82
-57            <meta-data
-57-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:15:13-17:85
-58                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-58-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:16:17-113
-59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:17:17-82
-60            <meta-data
-60-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:32:13-34:85
-61                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-61-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:33:17-109
-62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:34:17-82
-63            <meta-data
-63-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
-64                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-64-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
-65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
-66            <meta-data
-66-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
-67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-67-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
-68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
-69            <meta-data
-69-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:20:13-22:85
-70                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-70-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:21:17-111
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:22:17-82
-72            <meta-data
-72-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
-73                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-73-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
-75            <meta-data
-75-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
-76                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-76-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
-78        </service>
-79
-80        <provider
-80-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-81            android:name="com.squareup.picasso.PicassoProvider"
-81-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-82            android:authorities="ru.skillbranch.chat.com.squareup.picasso"
-82-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-83            android:exported="false" />
-83-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-84
-85        <activity
-85-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
-86            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-86-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
-87            android:excludeFromRecents="true"
-87-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
-88            android:exported="true"
-88-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
-89            android:launchMode="singleTask"
-89-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
-90            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-90-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
-92        <activity
-92-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-93-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-94            android:exported="false"
-94-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-95-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-96
-97        <receiver
-97-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
-98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-98-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
-99            android:enabled="true"
-99-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
-100            android:exported="false" >
-100-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
-101        </receiver>
-102
-103        <service
-103-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
-104            android:name="com.google.android.gms.measurement.AppMeasurementService"
-104-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
-105            android:enabled="true"
-105-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
-106            android:exported="false" />
-106-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
-107        <service
-107-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
-108            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-108-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
-109            android:enabled="true"
-109-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
-110            android:exported="false"
-110-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
-111            android:permission="android.permission.BIND_JOB_SERVICE" />
-111-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
-112
-113        <provider
-113-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
-114            android:name="com.google.firebase.provider.FirebaseInitProvider"
-114-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
-115            android:authorities="ru.skillbranch.chat.firebaseinitprovider"
-115-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
-116            android:directBootAware="true"
-116-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
-117            android:exported="false"
-117-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
-118            android:initOrder="100" />
-118-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
-119
-120        <meta-data
-120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-121            android:name="com.google.android.gms.version"
-121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-122            android:value="@integer/google_play_services_version" />
-122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-123    </application>
-124
-125</manifest>
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:5:5-70
+11-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:6:22-69
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->[com.firebaseui:firebase-ui-database:6.2.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c44e92d52b2c75f0dcada7581d7af17d/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:5-67
+15-->[com.firebaseui:firebase-ui-database:6.2.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c44e92d52b2c75f0dcada7581d7af17d/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:22-64
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:10:5-28:19
+22        android:allowBackup="true"
+22-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/0c50ec4950e924861018d0425158d1e6/core-1.3.1/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:12:9-43
+26        android:label="@string/app_name"
+26-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:13:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppThemeLight" >
+30-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:16:9-45
+31        <activity
+31-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:18:9-19:58
+32            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+32-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:18:19-82
+33            android:theme="@style/Base.Theme.AppCompat" />
+33-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:19:13-56
+34        <activity
+34-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:20:9-27:20
+35            android:name="ru.skillbranch.chat.MainActivity"
+35-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:20:19-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:21:13-55
+37            <intent-filter>
+37-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:22:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:23:17-69
+38-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:25:17-77
+40-->/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:27:9-32:39
+45            android:name="com.mikepenz.iconics.IconicsContentProvider"
+45-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:28:13-71
+46            android:authorities="ru.skillbranch.chat.iconics.core.provider"
+46-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:29:13-73
+47            android:enabled="@bool/is_iconics_content_provider_enabled"
+47-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:30:13-72
+48            android:exported="false"
+48-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:31:13-37
+49            android:initOrder="100" />
+49-->[com.mikepenz:iconics-core:4.0.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a1cd51161ba187d26342966130b2d885/jetified-iconics-core-4.0.2/AndroidManifest.xml:32:13-36
+50
+51        <service
+51-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:12:9-18:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:13:13-84
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:14:13-37
+55            <meta-data
+55-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:15:13-17:85
+56                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+56-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:16:17-126
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-firestore-ktx:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/a31ac2e53825cb4903bd44783ec57395/jetified-firebase-firestore-ktx-21.6.0/AndroidManifest.xml:17:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:15:13-17:85
+59                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+59-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:16:17-113
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/01f43e05a89a3865d310133a79420101/jetified-firebase-common-ktx-19.3.1/AndroidManifest.xml:17:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:32:13-34:85
+62                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+62-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:33:17-109
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-database:19.4.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/6b4cca32aa1d4ba5b41912161add88af/jetified-firebase-database-19.4.0/AndroidManifest.xml:34:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+65                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+65-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-storage:19.2.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c26c546d2f2a6fb7720762155ab40d7c/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
+68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+68-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:20:13-22:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+71-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:21:17-111
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore:21.6.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/eaa2e926318476be79f483ed56a35194/jetified-firebase-firestore-21.6.0/AndroidManifest.xml:22:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/8fcaf5b9c8a8b0106dd726522d7efee1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:16.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/b1bfeed3782f6fb8020a03e9b597ad03/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+79        </service>
+80
+81        <provider
+81-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+82            android:name="com.squareup.picasso.PicassoProvider"
+82-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+83            android:authorities="ru.skillbranch.chat.com.squareup.picasso"
+83-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+84            android:exported="false" />
+84-->[com.squareup.picasso:picasso:2.71828] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/042c8d09cfb5e02289773cef1cb6f2b7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+85
+86        <activity
+86-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
+87            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+87-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
+91            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+91-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.firebase:firebase-auth:19.3.2] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/e989e2a91555a56fa5b671f6099f3f37/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.1.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+97
+98        <receiver
+98-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+99            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+99-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+100            android:enabled="true"
+100-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+101            android:exported="false" >
+101-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+102        </receiver>
+103
+104        <service
+104-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+105            android:name="com.google.android.gms.measurement.AppMeasurementService"
+105-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+107            android:exported="false" />
+107-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+108        <service
+108-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+109            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+109-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+112            android:permission="android.permission.BIND_JOB_SERVICE" />
+112-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/2034547964466d776a1598f7dcbc7ff8/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+113
+114        <provider
+114-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+115            android:name="com.google.firebase.provider.FirebaseInitProvider"
+115-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+116            android:authorities="ru.skillbranch.chat.firebaseinitprovider"
+116-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+118            android:exported="false"
+118-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+119            android:initOrder="100" />
+119-->[com.google.firebase:firebase-common:19.3.1] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/c5f59e69becacf5166e5a860961ff8d2/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+120
+121        <meta-data
+121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+122            android:name="com.google.android.gms.version"
+122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->[com.google.android.gms:play-services-basement:17.0.0] /Users/spbiphones/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+124    </application>
+125
+126</manifest>

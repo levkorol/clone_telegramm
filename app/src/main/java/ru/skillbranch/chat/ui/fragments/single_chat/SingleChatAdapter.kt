@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.message_item.view.*
 import ru.skillbranch.chat.R
@@ -17,7 +16,7 @@ import ru.skillbranch.chat.utilits.*
 class SingleChatAdapter : RecyclerView.Adapter<SingleChatAdapter.SingleChatHolder>() {
 
     private var mListMessagesCache = mutableListOf<CommonModel>()
-    private lateinit var mDiffResult: DiffUtil.DiffResult
+ //   private lateinit var mDiffResult: DiffUtil.DiffResult
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SingleChatHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.message_item, parent, false)
@@ -40,12 +39,12 @@ class SingleChatAdapter : RecyclerView.Adapter<SingleChatAdapter.SingleChatHolde
         if (mListMessagesCache[position].from == CURRENT_UID) {
             holder.blockReceivedImageMessage.visibility = View.GONE
             holder.blockUserImageMessage.visibility = View.VISIBLE
-            holder.chatUserImage.downloadAndSetImage(mListMessagesCache[position].imageUrl)
+            holder.chatUserImage.downloadAndSetImage(mListMessagesCache[position].fileUrl)
             holder.chatUserImageMessageTime.text = mListMessagesCache[position].timeStamp.toString().asTime()
         } else {
             holder.blockReceivedImageMessage.visibility = View.VISIBLE
             holder.blockUserImageMessage.visibility = View.GONE
-            holder.chatReceivedImage.downloadAndSetImage(mListMessagesCache[position].imageUrl)
+            holder.chatReceivedImage.downloadAndSetImage(mListMessagesCache[position].fileUrl)
             holder.chatReceivedImageMessageTime.text = mListMessagesCache[position].timeStamp.toString().asTime()
         }
     }

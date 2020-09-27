@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(mBinding.root)
         APP_ACTIVITY = this
         initFirebase()
+
         initUser {
             initFields()
             initFunc()
