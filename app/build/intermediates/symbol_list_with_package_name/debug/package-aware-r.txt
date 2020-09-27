@@ -2790,7 +2790,8 @@ layout material_drawer_item_toggle
 layout material_drawer_recycler_view
 layout material_drawer_slider
 layout materialize
-layout message_item
+layout message_item_image
+layout message_item_text
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

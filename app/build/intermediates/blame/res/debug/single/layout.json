@@ -44,6 +44,14 @@
         "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/toolbar_info.xml"
     },
     {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message_item_text.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/message_item_text.xml"
+    },
+    {
+        "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message_item_image.xml",
+        "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/message_item_image.xml"
+    },
+    {
         "merged": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_enter_phone_number.xml",
         "source": "/Users/spbiphones/Desktop/kotlin_projects/Chat/app/src/main/res/layout/fragment_enter_phone_number.xml"
     },

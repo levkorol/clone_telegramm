@@ -24,6 +24,7 @@ import ru.skillbranch.chat.database.*
 import ru.skillbranch.chat.models.CommonModel
 import ru.skillbranch.chat.models.UserModel
 import ru.skillbranch.chat.ui.fragments.BaseFragment
+import ru.skillbranch.chat.ui.fragments.message_recycler_view.views.AppViewFactory
 import ru.skillbranch.chat.utilits.*
 
 class SingleChatFragment(private val contact: CommonModel) :
@@ -58,7 +59,7 @@ class SingleChatFragment(private val contact: CommonModel) :
         mLayoutManager = LinearLayoutManager(this.context)
         chat_input_message.addTextChangedListener(AppTextWatcher {
             val string = chat_input_message.text.toString()
-            if (string.isEmpty()|| string == "Запись") {
+            if (string.isEmpty() || string == "Запись") {
                 chat_btn_send_message.visibility = View.GONE
                 chat_btn_attach.visibility = View.VISIBLE
                 chat_btn_voice.visibility = View.VISIBLE
@@ -74,17 +75,27 @@ class SingleChatFragment(private val contact: CommonModel) :
 
         CoroutineScope(Dispatchers.IO).launch {
             chat_btn_voice.setOnTouchListener { view, motionEvent ->
-                if(checkPermission(RECORD_AUDIO)){
-                    if(motionEvent.action == MotionEvent.ACTION_DOWN) {
+                if (checkPermission(RECORD_AUDIO)) {
+                    if (motionEvent.action == MotionEvent.ACTION_DOWN) {
                         chat_input_message.setText("Запись")
-                        chat_btn_voice.setColorFilter(ContextCompat.getColor(APP_ACTIVITY, R.color.primary))
+                        chat_btn_voice.setColorFilter(
+                            ContextCompat.getColor(
+                                APP_ACTIVITY,
+                                R.color.primary
+                            )
+                        )
                         val messageKey = getMessageKey(contact.id)
                         mAppVoiceRecorder.startRecord(messageKey)
-                    } else if (motionEvent.action == MotionEvent.ACTION_UP){
+                    } else if (motionEvent.action == MotionEvent.ACTION_UP) {
                         chat_input_message.setText("")
                         chat_btn_voice.colorFilter = null
                         mAppVoiceRecorder.stopRecord() { file, messageKey ->
-                            uploadFileToStorage(Uri.fromFile(file), messageKey, contact.id, TYPE_MESSAGE__VOICE)
+                            uploadFileToStorage(
+                                Uri.fromFile(file),
+                                messageKey,
+                                contact.id,
+                                TYPE_MESSAGE__VOICE
+                            )
                             mSmoothScrollToPosition = true
                         }
                     }
@@ -119,11 +130,11 @@ class SingleChatFragment(private val contact: CommonModel) :
             val message = it.getCommonModel()
 
             if (mSmoothScrollToPosition) {
-                mAdapter.addItemToBottom(message) {
+                mAdapter.addItemToBottom(AppViewFactory.getView(message)) {
                     mRecyclerView.smoothScrollToPosition(mAdapter.itemCount)
                 }
             } else {
-                mAdapter.addItemToTop(message) {
+                mAdapter.addItemToTop(AppViewFactory.getView(message)) {
                     mSwipeRefreshLayout.isRefreshing = false
                 }
             }
